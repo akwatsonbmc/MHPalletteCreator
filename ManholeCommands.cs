@@ -169,7 +169,9 @@ public void TestInsertOneBlock()
                 // Check if the modified attribute belongs to L TYPE PROFILE
                 if (attRef.OwnerId.IsValid)
                 {
-                    using (Transaction tr = attRef.Database.TransactionManager.StartTransaction())
+                    Document doc = Application.DocumentManager.MdiActiveDocument;
+                    using (DocumentLock docLock = doc.LockDocument())
+                    using (Transaction tr = attRef.Database.TransactionManager.StartOpenCloseTransaction())
                     {
                         var owner = tr.GetObject(attRef.OwnerId, OpenMode.ForRead) as BlockReference;
                         if (owner != null)
