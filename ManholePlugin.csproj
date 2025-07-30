@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+   <ItemGroup>
+    <Reference Include="AcCoreMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\AcCoreMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\AcDbMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\AcMgd.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AcWindows">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\AcWindows.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="AeccDbMgd">
+  <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\C3D\AeccDbMgd.dll</HintPath>
+  <Private>false</Private>
+</Reference>
+<Reference Include="AeccLandMgd">
+  <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\C3D\AeccLandMgd.dll</HintPath>
+  <Private>false</Private>
+</Reference>
+<Reference Include="AeccDbNet">
+  <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\C3D\AeccDbNet.dll</HintPath>
+  <Private>false</Private>
+</Reference>
+
+<Reference Include="AecBaseMgd">
+  <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\C3D\AecBaseMgd.dll</HintPath>
+  <Private>false</Private>
+</Reference>
+    <Reference Include="System.Windows.Forms" />
+     <Reference Include="AcCoreMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\AcCoreMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\AcDbMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\AcMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="accorelib">
+      <HintPath>C:\Program Files\Autodesk\AutoCAD 2022\accorelib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+</Project>

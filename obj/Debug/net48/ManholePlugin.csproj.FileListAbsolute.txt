@@ -1,0 +1,14 @@
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\bin\Debug\net48\ManholePlugin.dll
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\bin\Debug\net48\ManholePlugin.pdb
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\bin\Debug\net48\AcCoreMgd.dll
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\bin\Debug\net48\AcDbMgd.dll
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\bin\Debug\net48\AcMgd.dll
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\bin\Debug\net48\en-US\AcDbMgd.resources.dll
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\obj\Debug\net48\ManholePlugin.csproj.AssemblyReference.cache
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\obj\Debug\net48\ManholePlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\obj\Debug\net48\ManholePlugin.AssemblyInfoInputs.cache
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\obj\Debug\net48\ManholePlugin.AssemblyInfo.cs
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\obj\Debug\net48\ManholePlugin.csproj.CoreCompileInputs.cache
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\obj\Debug\net48\ManholeP.394A68A2.Up2Date
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\obj\Debug\net48\ManholePlugin.dll
+C:\Users\akwatson\OneDrive - Burns & McDonnell\Desktop\ManholePlugin\obj\Debug\net48\ManholePlugin.pdb
