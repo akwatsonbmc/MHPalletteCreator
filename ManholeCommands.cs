@@ -169,20 +169,29 @@ public void TestInsertOneBlock()
                 // Check if the modified attribute belongs to L TYPE PROFILE
                 if (attRef.OwnerId.IsValid)
                 {
+                    using (DocumentLock docLock = Application.DocumentManager.MdiActiveDocument.LockDocument())
                     using (Transaction tr = attRef.Database.TransactionManager.StartTransaction())
                     {
-                        var owner = tr.GetObject(attRef.OwnerId, OpenMode.ForRead) as BlockReference;
-                        if (owner != null)
+                        try
                         {
-                            var btr = (BlockTableRecord)tr.GetObject(owner.BlockTableRecord, OpenMode.ForRead);
-                            string blockName = btr.Name.ToUpper();
-
-                            if (blockName == "L TYPE PROFILE")
+                            var owner = tr.GetObject(attRef.OwnerId, OpenMode.ForRead) as BlockReference;
+                            if (owner != null)
                             {
-                                SyncLTypeManholeFromProfile(tr, owner); // 🆕 Copy A, F, H, ML, V
+                                var btr = (BlockTableRecord)tr.GetObject(owner.BlockTableRecord, OpenMode.ForRead);
+                                string blockName = btr.Name.ToUpper();
+
+                                if (blockName == "L TYPE PROFILE")
+                                {
+                                    isSelfUpdating = true;
+                                    SyncLTypeManholeFromProfile(tr, owner); // 🆕 Copy A, F, H, ML, V
+                                }
                             }
+                            tr.Commit();
                         }
-                        tr.Commit();
+                        finally
+                        {
+                            isSelfUpdating = false;
+                        }
                     }
                 }
 
